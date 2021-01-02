@@ -12,7 +12,7 @@ import java.util.UUID;
 @Slf4j
 @RequiredArgsConstructor
 @Component
-public class BeerInventoryBootstrap implements CommandLineRunner {
+public class BeerInventoryLoader implements CommandLineRunner {
     public static final String BEER_1_UPC = "0631234200036";
     public static final String BEER_2_UPC = "0631234300019";
     public static final String BEER_3_UPC = "0083783375213";
@@ -34,8 +34,7 @@ public class BeerInventoryBootstrap implements CommandLineRunner {
                 .builder()
                 .beerId(BEER_1_UUID)
                 .upc(BEER_1_UPC)
-                .quantityOnHand(50)
-                .build());
+                .quantityOnHand(100).build());
 
         beerInventoryRepository.save(BeerInventory
                 .builder()
@@ -48,7 +47,7 @@ public class BeerInventoryBootstrap implements CommandLineRunner {
                 .builder()
                 .beerId(BEER_3_UUID)
                 .upc(BEER_3_UPC)
-                .quantityOnHand(50)
+                .quantityOnHand(150)
                 .build());
 
         log.debug("Loaded Inventory. Record count: " + beerInventoryRepository.count());
