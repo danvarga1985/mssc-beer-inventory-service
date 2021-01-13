@@ -1,4 +1,4 @@
-package com.danvarga.msscbeerinventoryservice.web.model;
+package com.danvarga.brewery.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

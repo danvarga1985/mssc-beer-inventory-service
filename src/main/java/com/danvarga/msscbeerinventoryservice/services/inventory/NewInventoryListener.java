@@ -1,6 +1,6 @@
 package com.danvarga.msscbeerinventoryservice.services.inventory;
 
-import com.danvarga.common.events.NewInventoryEvent;
+import com.danvarga.brewery.model.events.NewInventoryEvent;
 import com.danvarga.msscbeerinventoryservice.config.JmsConfig;
 import com.danvarga.msscbeerinventoryservice.domain.BeerInventory;
 import com.danvarga.msscbeerinventoryservice.repositories.BeerInventoryRepository;

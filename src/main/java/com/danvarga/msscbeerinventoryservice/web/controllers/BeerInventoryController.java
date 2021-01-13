@@ -2,7 +2,7 @@ package com.danvarga.msscbeerinventoryservice.web.controllers;
 
 import com.danvarga.msscbeerinventoryservice.repositories.BeerInventoryRepository;
 import com.danvarga.msscbeerinventoryservice.web.mappers.BeerInventoryMapper;
-import com.danvarga.msscbeerinventoryservice.web.model.BeerInventoryDto;
+import com.danvarga.brewery.model.BeerInventoryDto;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.danvarga.common.events;
+package com.danvarga.brewery.model.events;
 
 import lombok.NoArgsConstructor;
 
