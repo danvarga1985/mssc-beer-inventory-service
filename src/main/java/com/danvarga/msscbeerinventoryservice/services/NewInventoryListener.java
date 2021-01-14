@@ -1,4 +1,4 @@
-package com.danvarga.msscbeerinventoryservice.services.inventory;
+package com.danvarga.msscbeerinventoryservice.services;
 
 import com.danvarga.brewery.model.events.NewInventoryEvent;
 import com.danvarga.msscbeerinventoryservice.config.JmsConfig;
