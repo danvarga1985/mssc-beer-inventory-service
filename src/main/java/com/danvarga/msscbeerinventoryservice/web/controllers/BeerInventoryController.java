@@ -21,7 +21,6 @@ public class BeerInventoryController {
     private final BeerInventoryRepository beerInventoryRepository;
     private final BeerInventoryMapper beerInventoryMapper;
 
-    // TODO: fix beerId format - in DB its non-readable. The endpoint is non functional right now.
     @GetMapping("api/v1/beer/{beerId}/inventory")
     List<BeerInventoryDto> listBeersById(@PathVariable UUID beerId) {
         log.debug("Finding Inventory for beerId:" + beerId);
